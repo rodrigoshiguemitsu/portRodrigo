@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width:767px){
+    header{
+        width: 98%;
+        margin: 0 auto;
+        background: rgb(0,0,0);
+        background: linear-gradient(29deg , rgba(2,2,2,1) 13%, rgba(58,91,180,1) 86%);
+        color: white;
+        display: block;
+        text-align: center;
+    }
+    #cabecalhocel{
+        padding-top: 0.02px;
+        padding-bottom: 0.02px;
+        margin-bottom: -20px;
+    }
+    #iconecel{
+        display: flex;
+        justify-content:center;
+        margin: auto;
+        
+    }
+    #iconecel img{
+        height: 35px;
+    }
+
+    #logodev img{
+        width: 80%;
+        margin-top: -80px;
+        margin-bottom: -40px;
+        padding-bottom: -30px;
+       
+    }
+    #logodev button{
+        margin-bottom: 35px;
+        background-color: darkgreen;
+        border: none;
+        font-size: 25px;
+        border-radius: 6px;
+        color: white;
+        box-shadow: 0.5px 0.1px 10px 1px black;
+    }
+
+    
+
+    #CorpoHomeCel{
+        text-align: center;
+        height: 100%;
+        width: 98%;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        display: flex;
+        
+        }
+    #CorpoHomeCel img{
+            height: 160px;
+            padding-top: 40px;
+    }
+    #CorpoHomeCel p {
+        padding-top: 25px;
+        margin-right: 10px;
+        margin-left: 10px;
+        justify-content: center;
+        text-justify: auto;
+        font-size: 25px;
+    }
+}
