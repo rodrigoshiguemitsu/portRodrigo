@@ -2,109 +2,127 @@
 
 
 @media screen and (max-width:767px){
-    header{
-        width: 98%;
-        margin: 0 auto;
-        margin-bottom: -40px;
-        color: white;
-        display: block;
-        text-align: center;
-        background: rgb(0,0,0);
-        background: linear-gradient(0deg, rgba(0,0,0,1) 13%, rgb(43, 143, 199) 86%);
+    *{
+    font-family:monospace
     }
-    #cabecalhocel{
-        padding-top: 0.02px;
-       
-       
+    header{
+        background-color:rgb(94, 228, 115);
+        width: 100%;
     }
     #iconecel{
-        display: flex;
-        justify-content:center;
-        margin: auto;
-        
-    }
-    #iconecel img{
-        width: 50px;
-      
-    }
-    #logodev{
-        width: 100%;
-        
-    }
-    #logodev img{
-        width: 98%;
-        margin-top: -70px;
-       
-    }
-
-
-    .descArtigo{
-        width: 98%;
-        margin: auto;
-        background-color: black;
-        color: white;
-        text-align: center;
-        margin-top: -20px;
-        padding-bottom: 10px;
-       
-    }
-
-    .CorpoHomeCel{
-        text-align: center;
-        height: 100%;
-        width: 98%;
-        margin: 0 auto;
-        margin-top: -40px;
-        padding-bottom: 20px;
-        background-color: black;
-        color: white;
-        display: flex;
-        
-        }
-    .CorpoHomeCel img{
-            height: 300px;
-            padding-top: 40px;
-    }
-    #imgredessociais{
-        height: 200px;
-        border-radius: 20px;
-        background-color: white;
-        margin-top: 30px;
-    }
-    #imgredessociais img{   
-        height: 200px;
-        margin-top: -40px;
-        border-radius: 0px 20px;
-        
-    }
-
-    .titArtigo{
-        padding-top: 45px;
-        margin-top: 50px;
-        margin-right: 10px;
-        margin-left: 10px;
+        display: flex; 
         justify-content: center;
-        text-justify: auto;
-        font-size: 25px;
+        background-color: transparent;
+        position:relative;
+        
+    }
+    #iconecel p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #iconecel p img{
+        height: 50px;
+    }
+    #cabecalhocel {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    #img2{
+        margin-top: -120px;
+        width:100%;
+        height: auto;
+        margin-bottom: -3.5px;
     }
 
-    #imgSites{
+    #corpo{
+        background-color: black;
+        height:100%;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .titCorpo{
+        width: 90%;
+        margin: auto;
+        color: rgb(94, 228, 115);
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: -15px;
+
+    }
+
+    .corpo1{
+        height: 100%;
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 6px;
+        border:solid  5px rgb(94, 228, 115);
+    }
+    .banner{
+        text-align: center;
         width: 98%;
         margin: auto;
+        margin-top: 5px;
+        border-radius: 6px;
     }
-    #imgSites img{
-        max-width: 767px;
-        width: 100%;
-        margin-top: -15px;
-        padding-top: 2px;
-        background-color: rgb(0, 0, 0);
+    .banner img{
+        width:100%;
+        height: auto;
+        margin: auto;
     }
+    
+    .descbanner h3{
+        text-align: center;
+        font-size: 1.5em;
+        width: 95%;
+        margin: auto;
+        margin-bottom: -15px;
+        
+    }
+    .descbanner p{
+        text-align: center;
+        background-color: rgb(94, 228, 115);
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
     footer{
-        height: 100px;
-        width: 98%;
+        width: 100%;
         margin: auto;
-        margin-top:-5px;
-        background-color: rgba(0, 0, 255, 0.856);
+        text-align: center;
+        
     }
+    footer img{
+        width: 100%;
+        margin: auto;
+        margin-top: -125px;
+        margin-bottom: 0px;
+        height: 100%;
+
+    }
+    .descFooter{
+        color: white;
+        display: flex; 
+        justify-content: center;
+        background-color: transparent;
+        position:relative;
+    }
+    .descFooter1{
+        width: 100%;
+        text-align: center;
+    }
+
+    #autorFooter{
+        color: white;
+        position: relative;
+    }
+
+    
     
 }
