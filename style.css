@@ -3,7 +3,8 @@
 
 @media screen and (max-width:767px){
     *{
-    font-family:monospace
+    font-family:monospace;
+    background-color: black;
     }
     header{
         background-color:rgb(94, 228, 115);
