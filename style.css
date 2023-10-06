@@ -113,23 +113,32 @@
         justify-content: center;
         background-color: transparent;
         position:relative;
+        
     }
     .descFooter1{
         display: flex;
         margin-left: 5%;
         margin-right: 10%;
         text-align: center;
+        background-color: transparent;
     }
     .descFooter1 img{
         height: 32px;
         margin-top: 15px;
         margin-right: 10%;
         margin-left: 10%;
+        background-color: transparent;
+        
+    }
+    .descFooter1 p{
+        background-color: transparent;
+        margin-left: 8%;
     }
 
-    #autorFooter{
+    #autorFooter p{
         color: white;
         position: relative;
+        background-color: transparent;
     }
 
     
