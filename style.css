@@ -5,16 +5,17 @@
     header{
         width: 98%;
         margin: 0 auto;
-        background: rgb(0,0,0);
-        background: linear-gradient(29deg , rgba(2,2,2,1) 13%, rgba(58,91,180,1) 86%);
+        margin-bottom: -40px;
         color: white;
         display: block;
         text-align: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 13%, rgb(43, 143, 199) 86%);
     }
     #cabecalhocel{
         padding-top: 0.02px;
-        padding-bottom: 0.02px;
-        margin-bottom: -20px;
+       
+       
     }
     #iconecel{
         display: flex;
@@ -23,48 +24,87 @@
         
     }
     #iconecel img{
-        height: 35px;
+        width: 50px;
+      
     }
-
+    #logodev{
+        width: 100%;
+        
+    }
     #logodev img{
-        width: 80%;
-        margin-top: -80px;
-        margin-bottom: -40px;
-        padding-bottom: -30px;
+        width: 98%;
+        margin-top: -70px;
        
     }
-    #logodev button{
-        margin-bottom: 35px;
-        background-color: darkgreen;
-        border: none;
-        font-size: 25px;
-        border-radius: 6px;
+
+
+    .descArtigo{
+        width: 98%;
+        margin: auto;
+        background-color: black;
         color: white;
-        box-shadow: 0.5px 0.1px 10px 1px black;
+        text-align: center;
+        margin-top: -20px;
+        padding-bottom: 10px;
+       
     }
 
-    
-
-    #CorpoHomeCel{
+    .CorpoHomeCel{
         text-align: center;
         height: 100%;
         width: 98%;
         margin: 0 auto;
+        margin-top: -40px;
+        padding-bottom: 20px;
         background-color: black;
         color: white;
         display: flex;
         
         }
-    #CorpoHomeCel img{
-            height: 160px;
+    .CorpoHomeCel img{
+            height: 300px;
             padding-top: 40px;
     }
-    #CorpoHomeCel p {
-        padding-top: 25px;
+    #imgredessociais{
+        height: 200px;
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 30px;
+    }
+    #imgredessociais img{   
+        height: 200px;
+        margin-top: -40px;
+        border-radius: 0px 20px;
+        
+    }
+
+    .titArtigo{
+        padding-top: 45px;
+        margin-top: 50px;
         margin-right: 10px;
         margin-left: 10px;
         justify-content: center;
         text-justify: auto;
         font-size: 25px;
     }
+
+    #imgSites{
+        width: 98%;
+        margin: auto;
+    }
+    #imgSites img{
+        max-width: 767px;
+        width: 100%;
+        margin-top: -15px;
+        padding-top: 2px;
+        background-color: rgb(0, 0, 0);
+    }
+    footer{
+        height: 100px;
+        width: 98%;
+        margin: auto;
+        margin-top:-5px;
+        background-color: rgba(0, 0, 255, 0.856);
+    }
+    
 }
