@@ -41,13 +41,20 @@
     }
     #iconecel p img{
         animation-name: slide ;
-        animation-duration: 5s;
+        animation-duration: 0.3s;
         animation-fill-mode:forwards;
         animation-timing-function:linear;
         animation-direction:alternate;
         background-color: transparent;
         height: 50px;
-        
+    }
+    #iconecel p img:hover{
+        height: 55px;
+        border-radius: 100px;
+        background-color: transparent;
+        transition: 0.5s;
+        border:solid 1px transparent;
+        cursor: pointer;
     }
     #cabecalhocel {
         width: 100%;
@@ -78,9 +85,8 @@
         animation-name: slide ;
         animation-duration: 3s;
         animation-fill-mode:inherit;
-
     }
-
+    
     .corpo1{
         height: 100%;
         width: 70%;
@@ -90,8 +96,16 @@
         color: white;
         border-radius: 6px;
         border:solid  5px rgb(94, 228, 115);
-        transition:4s ;
+        transition:0.3s ;
     }
+    .corpo1:hover{
+        border:solid 5px rgb(94, 228, 115);
+        cursor: pointer;
+        width: 75%;
+        
+    }
+    
+
     .banner{
         text-align: center;
         width: 98%;
@@ -99,6 +113,7 @@
         margin-top: 5px;
         border-radius: 6px;
     }
+    
     .banner img{
         width:100%;
         height: auto;
@@ -121,6 +136,9 @@
         font-weight: bold;
         margin-bottom: 0px;
     }
+    .descbanner p:hover{
+       font-size: 27px;
+    }
 
     footer{
         width: 100%;
@@ -134,8 +152,8 @@
         margin-top: -165px;
         margin-bottom: 0px;
         height:200px;
-
     }
+
     .descFooter{
         color: white;
         display: flex; 
@@ -157,7 +175,14 @@
         margin-right: 10%;
         margin-left: 10%;
         background-color: transparent;
-        
+    }
+    .descFooter1 img:hover{
+        background-color: transparent;
+        border: solid 1px transparent;
+        cursor: pointer;
+        border-radius: 100px;
+        height: 40px;
+        transition: 0.5s;
     }
     .descFooter1 p{
         background-color: transparent;
