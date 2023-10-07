@@ -2,6 +2,23 @@
 
 
 @media screen and (max-width:767px){
+
+
+
+
+
+    @keyframes slide {
+        from{
+            opacity: 0;
+        }
+        to{
+            transform: translateX(3px);
+            opacity: 1;
+        }
+    }
+
+
+
     *{
     font-family:monospace;
     background-color: black;
@@ -18,11 +35,19 @@
         
     }
     #iconecel p {
+        background-color: transparent;
         margin-left: 5%;
         margin-right: 5%;
     }
     #iconecel p img{
+        animation-name: slide ;
+        animation-duration: 5s;
+        animation-fill-mode:forwards;
+        animation-timing-function:linear;
+        animation-direction:alternate;
+        background-color: transparent;
         height: 50px;
+        
     }
     #cabecalhocel {
         width: 100%;
@@ -50,6 +75,9 @@
         text-align: center;
         font-size: 25px;
         margin-bottom: -15px;
+        animation-name: slide ;
+        animation-duration: 3s;
+        animation-fill-mode:inherit;
 
     }
 
@@ -62,6 +90,7 @@
         color: white;
         border-radius: 6px;
         border:solid  5px rgb(94, 228, 115);
+        transition:4s ;
     }
     .banner{
         text-align: center;
@@ -143,4 +172,323 @@
 
     
     
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    *{
+    font-family:monospace;
+    background-color: black;
+    }
+    header{
+        background-color:rgb(94, 228, 115);
+        width: 100%;
+    }
+    #iconecel{
+        display: flex; 
+        justify-content: center;
+        background-color: transparent;
+        position:relative;
+        
+    }
+    #iconecel p {
+        background-color: transparent;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #iconecel img{
+        background-color: transparent;
+        height: 90px;
+    }
+    #cabecalhocel {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    #img2{
+        margin-top: -120px;
+        width:100%;
+        height:850px;
+        margin-bottom: -3.5px;
+    }
+
+    #corpo{
+        display: flex;
+        background-color: black;
+        height: 1px;     
+    
+    }
+    .titCorpo{
+        margin: auto;
+        color: rgb(94, 228, 115);
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: -15px;
+
+    }
+    .titCorpo h3{
+        display:none;
+    }
+
+    .corpo1{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: black;
+        color: white;
+        border-radius: 6px;
+        border:solid  5px rgb(94, 228, 115);
+    }
+    .banner{
+        text-align: center;
+        width: 98%;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 6px;
+    }
+    .banner img{
+        width:100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .descbanner h3{
+        text-align: center;
+        font-size: 1.5em;
+        width: 95%;
+        margin: auto;
+        margin-bottom: -15px;
+        
+    }
+    .descbanner p{
+        text-align: center;
+        background-color: rgb(94, 228, 115);
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    footer{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    footer img{
+        width: 100%;
+        margin: auto;
+        margin-top: -2000px;
+        margin-bottom: 0px;
+        height: 400px;
+
+    }
+    .descFooter{
+        color: white;
+        display: flex; 
+        justify-content: center;
+        background-color: transparent;
+        position:relative;
+        
+        
+    }
+    .descFooter1{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: transparent;
+    }
+    .descFooter1 img{
+        height: 50px;
+        margin-top: 450px;
+        margin-right: 10%;
+        margin-left: 10%;
+        background-color: transparent;
+        
+    }
+    .descFooter1 p{
+        margin-top: 450px;
+        background-color: transparent;
+        margin-left: 8%;
+        font-size: 30px;
+    }
+
+    #autorFooter {
+        padding-bottom: 20px;
+    }
+    #autorFooter p{
+        color: white;
+        position: relative;
+        background-color: transparent;
+        font-size: 25px;
+    }
+   .simbol1 {
+    font-size: 50px;
+    }
+
+    
+    
+}
+
+
+@media screen and (min-width:1024px) {
+    *{
+    font-family:monospace;
+    background-color: black;
+    max-width: 1500px;
+    margin: auto;
+    }
+    header{
+        background-color:rgb(94, 228, 115);
+        width: 100%;
+    }
+    #iconecel{
+        display: flex; 
+        justify-content: center;
+        background-color: transparent;
+        position:relative;
+        
+        
+    }
+    #iconecel p {
+        background-color: transparent;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #iconecel p img{
+        background-color: transparent;
+        margin-top: 40px;
+        height: 90px;
+    }
+    #cabecalhocel {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    #img2{
+        margin-top: -120px;
+        width:100%;
+        height:850px;
+        margin-bottom: -3.5px;
+    }
+
+    #corpo{
+        display: flex;
+        background-color: black;
+        height: 250px;     
+    
+    }
+    .titCorpo{
+        margin: auto;
+        color: rgb(94, 228, 115);
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: -15px;
+
+    }
+    .titCorpo h3{
+        display:none;
+    }
+
+    .corpo1{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: black;
+        color: white;
+        border-radius: 6px;
+        border:solid  5px rgb(94, 228, 115);
+    }
+    .banner{
+        text-align: center;
+        width: 98%;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 6px;
+    }
+    .banner img{
+        width:100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .descbanner h3{
+        text-align: center;
+        font-size: 1.5em;
+        width: 95%;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+    }
+    .descbanner p{
+        text-align: center;
+        background-color: rgb(94, 228, 115);
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    footer{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    footer img{
+        width: 100%;
+        margin: auto;
+        margin-top: -2000px;
+        margin-bottom: 0px;
+        height: 300px;
+
+    }
+    .descFooter{
+        color: white;
+        display: flex; 
+        justify-content: center;
+        background-color: transparent;
+        position:relative;
+        
+        
+    }
+    .descFooter1{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 1%;
+        background-color: transparent;
+    }
+    .descFooter1 img{
+        height: 50px;
+        margin-top: 350px;
+        margin-right: 10%;
+        margin-left: 10%;
+        background-color: transparent;
+        
+    }
+    .descFooter1 p{
+        margin-top: 350px;
+        background-color: transparent;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+
+    #autorFooter {
+        padding-bottom: 20px;
+    }
+    #autorFooter p{
+        color: white;
+        position: relative;
+        background-color: transparent;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+       
 }
