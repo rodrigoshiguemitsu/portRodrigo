@@ -203,6 +203,19 @@
 
 
 @media screen and (min-width:768px) and (max-width:1023px){
+    @keyframes slide {
+        from{
+            opacity: 0;
+        }
+        to{
+            transform: translateX(3px);
+            opacity: 1;
+        }
+    }
+
+
+
+
     *{
     font-family:monospace;
     background-color: black;
@@ -226,6 +239,14 @@
     #iconecel img{
         background-color: transparent;
         height: 90px;
+    }
+    #iconecel img:hover{
+        background-color: transparent;
+        border-radius: 100px;
+        border: solid 1px transparent;
+        height: 95px;
+        transition: 0.3s;
+        cursor: pointer;
     }
     #cabecalhocel {
         width: 100%;
@@ -258,7 +279,6 @@
     }
 
     .corpo1{
-        width: 100%;
         margin: auto;
         margin-top: 30px;
         margin-left: 5%;
@@ -267,6 +287,15 @@
         color: white;
         border-radius: 6px;
         border:solid  5px rgb(94, 228, 115);
+        animation-name: slide;
+        animation-duration: 0.3s;
+        animation-fill-mode: backwards;
+    }
+    .corpo1:hover{
+        cursor: pointer;
+        border: solid 10px transparent;
+        background-color: brown;
+        color: brown;
     }
     .banner{
         text-align: center;
@@ -275,18 +304,21 @@
         margin-top: 5px;
         border-radius: 6px;
     }
+  
     .banner img{
         width:100%;
         height: auto;
         margin: auto;
     }
+  
+    
     
     .descbanner h3{
         text-align: center;
         font-size: 1.5em;
         width: 95%;
         margin: auto;
-        margin-bottom: -15px;
+        margin-bottom: -13px;
         
     }
     .descbanner p{
@@ -297,6 +329,7 @@
         font-weight: bold;
         margin-bottom: 0px;
     }
+   
 
     footer{
         width: 100%;
@@ -353,14 +386,12 @@
     }
    .simbol1 {
     font-size: 50px;
-    }
-
-    
-    
+    }  
 }
 
 
 @media screen and (min-width:1024px) {
+    
     *{
     font-family:monospace;
     background-color: black;
@@ -376,8 +407,6 @@
         justify-content: center;
         background-color: transparent;
         position:relative;
-        
-        
     }
     #iconecel p {
         background-color: transparent;
@@ -388,6 +417,14 @@
         background-color: transparent;
         margin-top: 40px;
         height: 90px;
+    }
+    #iconecel img:hover{
+        background-color: transparent;
+        border-radius: 100px;
+        border: solid 1px transparent;
+        height: 95px;
+        transition: 0.3s;
+        cursor: pointer;
     }
     #cabecalhocel {
         width: 100%;
@@ -402,6 +439,7 @@
     }
 
     #corpo{
+        height: 100%;
         display: flex;
         background-color: black;
         height: 250px;     
@@ -420,6 +458,7 @@
     }
 
     .corpo1{
+        height: auto;
         width: 100%;
         margin: auto;
         margin-top: 30px;
@@ -429,16 +468,22 @@
         color: white;
         border-radius: 6px;
         border:solid  5px rgb(94, 228, 115);
+        transition: 0.3s;
+    }
+    .corpo1:hover{
+        width: 100%;
+        border: solid 10px  rgb(94, 228, 115);
+        cursor: pointer;
     }
     .banner{
         text-align: center;
-        width: 98%;
+        width: 100%;
         margin: auto;
         margin-top: 5px;
         border-radius: 6px;
     }
     .banner img{
-        width:100%;
+        width:98%;
         height: auto;
         margin: auto;
     }
