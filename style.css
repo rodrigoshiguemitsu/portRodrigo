@@ -231,7 +231,7 @@
         position:relative;
         
     }
-    #iconecel p {
+    #iconecel a {
         background-color: transparent;
         margin-left: 5%;
         margin-right: 5%;
@@ -239,12 +239,15 @@
     #iconecel img{
         background-color: transparent;
         height: 90px;
+        
     }
+   
     #iconecel img:hover{
         border: solid 10px transparent;
         height: 95px;
         transition: 0.3s;
         cursor: pointer;
+       
     }
     #cabecalhocel {
         width: 100%;
@@ -336,30 +339,37 @@
         
     }
     footer img{
-        height: 340px;
+        height: 390px;
         width:100%;
         margin: auto;
-        z-index: 1;
+        text-align: center;
+        background-color: transparent;
 
     }
     .descFooter{
         color: white;
-        display: flex; 
+        display:flex; 
         justify-content: center;
-        background-color: transparent;
+        width: 100%;
         
     }
     .descFooter1{
+        width: 50%;
         display: flex;
         margin-left: 10%;
         margin-right: 10%;
         background-color: transparent;
+        position: relative;
     }
-    .descFooter1 img{
+    .descFooter1 p a img{
         height: 50px;
-        margin-right: 10%;
-        margin-left: 10%;
+        width:100%;
         background-color: transparent;
+        margin-top: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-decoration: none;
+        
         
     }
     .descFooter1 img:hover{
@@ -367,16 +377,21 @@
         height: 60px;
         cursor: pointer;
         transition: 0.3s;
+        
+        
     }
     .descFooter1 p{
+       
+        margin-bottom: 10px;
         background-color: transparent;
         margin-left: 8%;
         font-size: 30px;
         z-index: 1;
+        
     }
 
     #autorFooter {
-        margin-bottom: -350px;
+        margin-bottom: -380px;
         padding-bottom: 10px;
     }
     #autorFooter p{
@@ -528,6 +543,7 @@
         
     }
     .descFooter1{
+        width: 100%;
         display: flex;
         margin-left: 10%;
         margin-right: 10%;
@@ -535,14 +551,17 @@
     }
     .descFooter1 img{
         height: 50px;
+        width: 100%;
         margin-top: 50px;
-        margin-right: 10%;
+        margin-right: 30%;
         margin-left: 10%;
         background-color: transparent;
+       
         
     }
     .descFooter1 img:hover{
         border-radius: solid 10px transparent;
+      
         height: 60px;
         cursor: pointer;
         transition: 0.3s;
