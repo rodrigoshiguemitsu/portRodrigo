@@ -639,8 +639,8 @@
         position: fixed;
         height: 70px;
         width: 70px;
-        bottom: 160px;
-        right: 170px;
+        bottom: 100px;
+        right: 50px;
         background: transparent;
     }
     #iconeWhats img:hover{
