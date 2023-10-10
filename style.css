@@ -110,6 +110,11 @@
         width: 75%;
         
     }
+    .corpo1 a{
+        text-decoration: none;
+        color: white;
+        list-style-type: none;
+    }
     
 
     .banner{
@@ -322,6 +327,11 @@
         border: solid 10px rgb(94, 228, 115);
     
     }
+    .corpo1 a{
+        text-decoration: none;
+        color: white;
+        list-style-type: none;
+    }
 
     .banner{
         text-align: center;
@@ -523,6 +533,12 @@
     .corpo1:hover{
         border: solid 10px  rgb(94, 228, 115);
         cursor: pointer;
+    }
+
+    .corpo1 a{
+        text-decoration: none;
+        color: white;
+        list-style-type: none;
     }
     .banner{
         text-align: center;
