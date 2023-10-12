@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width:767px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: monospace;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    #imgLandingPage img{
+        width: 95%;
+        margin: auto;
+        border: solid 4px rgb(94, 228, 115);
+    }
+    h1{
+        font-size: 2rem;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    h2{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
+        border:solid 3px rgb(94, 228, 115);
+        border-radius: 6px;
+    }
+    p{
+        font-size: 1.5rem;
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        height: 100%;
+        border-radius: 6px;
+        
+
+    }
+    img{
+        border: solid 4px rgb(94, 228, 115);
+        border-radius: 6px;
+        width: 70%;
+        
+       
+    }
+
+    footer{
+        background-image: url(../../assets/imgFundoFooter.png);
+        background-position: center;
+        width: 100%;
+        margin-top: 40px;
+        padding-top: 5px;
+        
+    }
+    #iconFooterimg {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        background: transparent;
+    }
+    #iconFooterimg p{
+        background: transparent;
+        width: 60px;
+    }
+    #iconFooterimg a{
+        background: transparent;
+    }
+    #iconFooterimg img{
+        background: transparent;
+        border: transparent;
+        height: 40px;
+        width: 40px;
+        margin-left: 15px;
+        margin-right: 10px;
+       
+    }
+    #iconFooterimg img:hover{
+        background:transparent;
+        border:solid 5px transparent;
+        height: 45px;
+        width: 45px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    #descContato{
+        background: transparent;
+    }
+    #descContato h3{        
+        margin-top: 30px;
+        width: 95%;
+        text-align: center;
+        background:transparent
+        
+    }
+
+    .autdesc{
+        margin-top: -5px;
+        padding-bottom: 5px;
+        background: transparent;
+    }
+
+    
+    #iconeWhats img{
+        background: transparent;
+        height: 40px;
+        width: 40px;
+        border: transparent;
+        bottom: 100px;
+        right: 30px;
+        position: fixed;
+    }
+    #iconeWhats img:hover{
+        height: 45px;
+        width: 45px;
+        border:solid 5px transparent;
+        cursor: pointer;
+        background-color: transparent;
+        transition: 0.3s;
+    }
+    
+
+    
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: monospace;
+        text-align: center;
+        background-color:black;
+        color:white;
+    }
+    #imgLandingPage img{
+        width: 95%;
+        margin: auto;
+        border: solid 4px rgb(94, 228, 115);
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    h2{
+        width: 80%;
+        font-size: 2rem;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
+        border:solid 3px rgb(94, 228, 115);
+        border-radius: 6px;
+    }
+    p{
+        font-size: 2rem;
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        height: 100%;
+        border-radius: 6px;
+        
+
+    }
+    img{
+        border: solid 4px rgb(94, 228, 115);
+        border-radius: 6px;
+        width: 60%;
+        
+       
+    }
+
+    footer{
+        background-image: url(../../assets/imgFundoFooter.png);
+        background-position: center;
+        width: 100%;
+        margin-top: 40px;
+        padding-top: 5px;
+        
+    }
+    #iconFooterimg {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        background: transparent;
+    }
+    #iconFooterimg p{
+        background: transparent;
+        width: 60px;
+    }
+    #iconFooterimg a{
+        background: transparent;
+    }
+    #iconFooterimg img{
+        background: transparent;
+        border: transparent;
+        height: 50px;
+        width: 50px;
+        margin-left: 15px;
+        margin-right: 10px;
+       
+    }
+    #iconFooterimg img:hover{
+        background-color:transparent;
+        border:solid 5px transparent;
+        height: 55px;
+        width: 55px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    #descContato{
+        background: transparent;
+    }
+    #descContato h3{        
+        margin-top: 30px;
+        width: 95%;
+        text-align: center;
+        background:transparent
+        
+    }
+
+    .autdesc{
+        margin-top: -5px;
+        padding-bottom: 5px;
+        background: transparent;
+    }
+
+    
+    #iconeWhats img{
+        height: 70px;
+        width: 70px;
+        border: transparent;
+        bottom: 100px;
+        right: 30px;
+        position: fixed;
+        background: transparent;
+    }
+    #iconeWhats img:hover{
+        height: 75px;
+        width: 75px;
+        border:solid 5px transparent;
+        cursor: pointer;
+        background-color: transparent;
+        transition: 0.3s;
+    }
+    
+
+    
+}
+@media screen and (min-width:1024px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: monospace;
+        text-align: center;
+        background-color: black;
+        color: white;
+        max-width: 1440px;
+        margin: auto;
+    }
+    #imgLandingPage img{
+        width: 95%;
+        margin: auto;
+        border: solid 4px rgb(94, 228, 115);
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    h2{
+        width: 80%;
+        font-size: 2rem;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
+        border:solid 3px rgb(94, 228, 115);
+        border-radius: 6px;
+    }
+    p{
+        font-size: 2rem;
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        height: 100%;
+        border-radius: 6px;
+        
+
+    }
+    img{
+        border: solid 4px rgb(94, 228, 115);
+        border-radius: 6px;
+        width: 60%;
+        
+       
+    }
+
+    footer{
+        background-image: url(../../assets/imgFundoFooter.png);
+        background-position: center;
+        width: 100%;
+        margin-top: 40px;
+        padding-top: 5px;
+        
+    }
+    #iconFooterimg {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        background: transparent;
+    }
+    #iconFooterimg p{
+        background: transparent;
+        width: 60px;
+    }
+    #iconFooterimg a{
+        background: transparent;
+    }
+    #iconFooterimg img{
+        background: transparent;
+        border: transparent;
+        height: 50px;
+        width: 50px;
+        margin-left: 15px;
+        margin-right: 10px;
+       
+    }
+    #iconFooterimg img:hover{
+        background-color:transparent;
+        border:solid 5px transparent;
+        height: 55px;
+        width: 55px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    #descContato{
+        background: transparent;
+    }
+    #descContato h3{        
+        margin-top: 30px;
+        width: 95%;
+        text-align: center;
+        background:transparent
+        
+    }
+
+    .autdesc{
+        margin-top: -5px;
+        padding-bottom: 5px;
+        background: transparent;
+    }
+
+    
+    #iconeWhats img{
+        background: transparent;
+        height: 70px;
+        width: 70px;
+        border: transparent;
+        bottom: 100px;
+        right: 30px;
+        position: fixed;
+    }
+    #iconeWhats img:hover{
+        height: 75px;
+        width: 75px;
+        border:solid 5px transparent;
+        cursor: pointer;
+        background-color: transparent;
+        transition: 0.3s;
+    }
+    
+
+    
+}
